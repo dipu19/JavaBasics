@@ -11,7 +11,7 @@ public class DiagonalDifference {
 		arr [0][0] = 11;
 		arr [0][1] = 2;
 		arr [0][2] = 4;
-		arr [1][0] = 4;
+		arr [1][0] = 6;
 		arr [1][1] = 5;
 		arr [1][2] = 6;
 		arr [2][0] = 10;
