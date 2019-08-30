@@ -17,10 +17,8 @@ public class SequenceEquation {
 					arr1.add(j+1);
 				}
 			}
-		}/*for(int i=0;i<arr1.size();i++)
-		{
-			System.out.println(arr1.get(i));
-		}*/for(int i=0;i<arr1.size();i++)
+		}
+		for(int i=0;i<arr1.size();i++)
 		{
 			for(int j=0;j<arr1.size();j++)
 			{
