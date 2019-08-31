@@ -3,37 +3,20 @@ package com.quantum.javabasics;
 public class SaveThePrisoner {
 	public static int ma()
 	{
-		int start=2;
-		int noOfPrisoner=5;
-		int noOfCandy=1;
-		int lastCandy=0;
-		if(noOfCandy>noOfPrisoner)
-		{
-			lastCandy=start+((noOfCandy-noOfPrisoner)-1);
-		}
-		else if(noOfCandy==noOfPrisoner)
-		{
-			if(start==1)
-			{
-				lastCandy=noOfPrisoner;
-			}
-			else
-			{
-				lastCandy=start-1;
-			}
-		}
-		if(noOfCandy<noOfPrisoner)
-		{
-			
-				lastCandy=(start+noOfCandy)-1;
-			
-		}
-		if(lastCandy>noOfPrisoner)
-		{
-			lastCandy=Math.abs(lastCandy-noOfCandy)-1;
-		}
-		return lastCandy;
-	}
+		int s=3;
+		int n=3;
+		int m=8;
+	
+	   
+	        int a = s+m-1;   
+	        if(a>n){
+	            if(a%n==0){
+	                return n;
+	            }
+	            return a%n;
+	        }return a;
+	}   
+	      
 	public static void main(String[] args)
 	{
 		SaveThePrisoner s=new SaveThePrisoner();
