@@ -7,7 +7,7 @@ public class AtmWithdrawMachine {
 	{
 		throw new ArithmeticException("Please Enter Correct Pin");
 	}
-	public static void main(String[] args)
+	public static void main(String[] args)throws InterruptedException
 	{	
 		System.out.println("Please Enter Your Pin");
 		Scanner s1=new Scanner(System.in);
@@ -22,6 +22,7 @@ public class AtmWithdrawMachine {
 			  {
 				  System.out.println("take your cash");
 				  availBalance=availBalance-amount;
+				  Thread.sleep(3000);
 				  System.out.println("Your Available balance is "+availBalance);
 			  }
 			  else
