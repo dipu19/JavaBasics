@@ -10,8 +10,8 @@ public class ChocolateFeast {
 		//n=total amount bobby has.
 		//c=cost of the chocolate.
 		//m=number wrapper need for a chocolate.
-        int numberOfChocolates = n / c;
-        int totalWrappers = numberOfChocolates;
+        int totalnumberOfChocolates = n / c;
+        int totalWrappers = totalnumberOfChocolates;
         int freeChocolate = 0;
         while (m <= totalWrappers) {
             int wrapperTogive=totalWrappers-(totalWrappers%m) ;
@@ -20,12 +20,12 @@ public class ChocolateFeast {
 
             totalWrappers = (totalWrappers - wrapperTogive) + freeChocolate;
 
-            numberOfChocolates=numberOfChocolates + freeChocolate;
+            totalnumberOfChocolates=totalnumberOfChocolates + freeChocolate;
 
         }
 
 
-		return numberOfChocolates;
+		return totalnumberOfChocolates;
 	}
 	public static void main(String[] args)
 	{
