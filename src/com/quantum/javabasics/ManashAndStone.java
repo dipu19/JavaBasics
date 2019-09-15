@@ -2,9 +2,9 @@ package com.quantum.javabasics;
 
 public class ManashAndStone {
 	public static  void main(String [] args)
-	{       int n = 10;
-            int a = 15;
-            int b = 16;
+	{       int n = 5;
+            int a = 2;
+            int b = 5;
             
             for(int i=n-1; i>-1; i--){
                 if(a<b)
