@@ -20,6 +20,9 @@ public class JdbcExample {
 		      String sql="INSERT INTO users VALUES ('jay','ram',100)";
 		      // note that i'm leaving "date_created" out of this insert statement
 		      st.executeUpdate(sql);
+		      String sql1="INSERT INTO users VALUES ('jay','ram',100)";
+		      st.executeUpdate(sql1);
+
 		      System.out.println("executed");
 
 		      conn.close();
