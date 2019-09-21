@@ -15,7 +15,7 @@ import java.sql.Statement;
 			       Class.forName("com.mysql.jdbc.Driver");
 			       Connection conn = DriverManager.getConnection(myurl, "root", "root");
 			       Statement st=conn.createStatement();
-			     /*  st.execute("INSERT INTO Employee(name,fname,salary)"+"VALUES('Dipu','Suresh',15000)");
+			       st.execute("INSERT INTO Employee(name,fname,salary)"+"VALUES('Dipu','Suresh',15000)");
 			       st.execute("INSERT INTO Employee(name,fname,salary)"+"VALUES('Sipu','Suresh',45500)");
 			       st.execute("INSERT INTO Employee(name,fname,salary)"+"VALUES('Ripu','Susant',5500)");
 			       ResultSet rs=st.executeQuery("select * from Employee"); 
