@@ -15,6 +15,6 @@ public class DropTheVoterTable {
 		ps.setString(2, "Jay");
 		//st.execute("Insert into Voter values('Jay',48)");
 		st.execute("drop table voter");
-		System.out.println("Inserted");
+		System.out.println("Dropped");
 	}
 }
