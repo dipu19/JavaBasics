@@ -9,13 +9,9 @@ public class Teacher_Table {
 			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
 			Statement st=con.createStatement();
 			PreparedStatement ps=con.prepareStatement("insert into teacherTable(?,?)");
-			//st.executeUpdate("CREATE TABLE teacherTable(Tname VARCHAR(20),Tid Int)");
+			st.executeUpdate("CREATE TABLE teacherTable(Tname VARCHAR(20),Tid Int)");
 			st.execute("insert into teacherTable values('Dipu',1455)");
-			ps.setString(1,"Ratan");  
-			  
-			int i=ps.executeUpdate();  
-			System.out.println(i+" records inserted");  
-			  
+			
 			//st.execute("insert into teacherTable values('Dipu',1455)");
 			System.out.println("Done");
 		}
