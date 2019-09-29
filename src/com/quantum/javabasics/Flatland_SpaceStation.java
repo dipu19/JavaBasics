@@ -11,7 +11,7 @@ public class Flatland_SpaceStation {
 	  int distance=0;
 	  int maxDistance=0;
 	  
-	  for(int i=1;i<=n;i++)
+	  for(int i=0;i<=n;i++)
 	  {
 		  distance=Math.abs(i-m);
 		  if(maxDistance<distance)
