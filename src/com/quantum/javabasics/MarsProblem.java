@@ -3,7 +3,7 @@ package com.quantum.javabasics;
 public class MarsProblem {
 	public static void main(String[] args)
 	  {
-		  String s="SOSSTSSOS";
+		  String s="SOSSTS";
 		  String s1="SOS";
 		  int count = 0;
 	      for (int i = 0; i < s.length(); i++) {
