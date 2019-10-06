@@ -9,7 +9,7 @@ public class Default_Value_Of_Datatype {
 	public static void main(String[] args)
 	{
 		Default_Value_Of_Datatype d=new Default_Value_Of_Datatype();
-		System.out.println("Default vlaue of char "+ d.ch);
+		System.out.println("Default vlaue of char"+d.ch+"value");
 		System.out.println("Default vlaue of int "+ d.no);
 		System.out.println("Default vlaue of String "+ d.s);
 		System.out.println("Default vlaue of boolean"+ d.b);
