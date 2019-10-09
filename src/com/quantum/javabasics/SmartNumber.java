@@ -1,13 +1,13 @@
 package com.quantum.javabasics;
 import java.util.*;
 public class SmartNumber {
-	public static void main(String[] args)
+	public static boolean isSmartNumber()
 	{
 		System.out.println("Enter a number");
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int count =0;
-		
+	    boolean st=true;
 		for(int i=1;i<n;i++)
 		{
 			if(n%i==0)
@@ -20,15 +20,19 @@ public class SmartNumber {
 			
 		}if(count==0)
 		{
-			System.out.println("Entered number is smart number ");
+			st=true;
 		}else
 			{
 			
 			if(count>0)
 			{
-				System.out.println("Entered number is not smart number");
+				st=false;
 			}
 			}
-				
+			return st;	
+	}
+	public static void main(String[] args)
+	{
+		System.out.println(SmartNumber.isSmartNumber());
 	}
 }
