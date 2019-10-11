@@ -24,6 +24,6 @@ public class ClosestNumber {
 					arr1.add(arr[j]);
 				}
 			
-		}System.out.println(arr1.size());
+		}System.out.println(arr1);
 	}
 }
