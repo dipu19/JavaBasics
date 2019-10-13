@@ -16,10 +16,10 @@ public class RunningTimeOfAlgorthim {
        
         while (nSorted < n)
         {
-                // get the next item
+                
                 int newInt = arr[nSorted];
                 int i = 0;
-                // locate its position in smaller array
+                
                 for (i = 0; i < nSorted; i++)
                     
                     if (arr[i] > newInt)
