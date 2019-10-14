@@ -5,7 +5,9 @@ public class Anagram {
 	public static void main(String[] args) {
 		 
 		        Scanner sc = new Scanner(System.in);
+		        System.out.println("Enter string length");
 		        int t = sc.nextInt();
+		        System.out.println("Enter String");
 		        while (t-->0){
 		            String str = sc.next();
 		            int len = str.length(), count = 0;
