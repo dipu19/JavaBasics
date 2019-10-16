@@ -8,7 +8,7 @@ public class SmartNumber {
 		int n=sc.nextInt();
 		int count =0;
 	    boolean st=true;
-		for(int i=1;i<n;i++)
+		for(int i=1;i<=n;i++)
 		{
 			if(n%i==0)
 			{
