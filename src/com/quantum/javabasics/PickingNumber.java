@@ -2,14 +2,16 @@ package com.quantum.javabasics;
 import java.util.*;
 public class PickingNumber {
 	 public static void main(String[] args)
-     { 
+     { Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of array");
+        int n=sc.nextInt();
     	 ArrayList<Integer> l=new ArrayList<Integer>();
-    	 l.add(98);
-    	 l.add(4);
-    	 l.add(99);
-    	 l.add(1);
-    	 l.add(97);
-    	 l.add(2);
+    	System.out.println("Enter value to arraylist");
+    	
+    	for(int i=0;i<n;i++)
+    	{
+    		l.add(sc.nextInt());
+    	}
     	
          Collections.sort(l);
 
