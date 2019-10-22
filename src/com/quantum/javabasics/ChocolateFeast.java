@@ -16,7 +16,7 @@ public class ChocolateFeast {
         while (m <= totalWrappers) {
             int wrapperTogive=totalWrappers-(totalWrappers%m) ;
 
-            freeChocolate = totalWrappers / m;
+            freeChocolate = totalWrappers /m;
 
             totalWrappers = (totalWrappers - wrapperTogive) + freeChocolate;
 
