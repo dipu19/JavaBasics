@@ -5,7 +5,7 @@ package com.quantum.javabasics;
 	public class TheHurdleRace {
 		public static void main(String[] args)
 		{
-			int[] height= {2,5,4,5,9};
+			int[] height= {2,5,4,8,9};
 			int k=5;
 			int max=0;
 			int energyDrinks=0;
