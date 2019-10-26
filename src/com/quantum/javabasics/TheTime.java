@@ -52,7 +52,8 @@ public class TheTime {
 		   {
 			   System.out.println(al.get(min)+" minute past "+al.get(hr));
 		   }
-		   else if(min==15)
+		   else 
+			   if(min==15)
 		   {
 			   System.out.println("quarter past "+al.get(hr));
 		   }
