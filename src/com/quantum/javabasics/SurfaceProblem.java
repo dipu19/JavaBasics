@@ -6,9 +6,9 @@ public class SurfaceProblem {
 	  System.out.println("Enter s1");
 	  Scanner scanner=new Scanner(System.in);
 	  int s1=scanner.nextInt();
-	  System.out.println("Enter s2");
-	  int s2=scanner.nextInt();
-	int[][] A=new int[s1][s2];
+	  System.out.println("Enter s3");
+	  int s3=scanner.nextInt();
+	int[][] A=new int[s1][s3];
     int tvolume=0;     
 for(int i=0;i<A.length;i++){
     for(int j=0;j<A[0].length;j++){
