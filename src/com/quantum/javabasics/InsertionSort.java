@@ -5,7 +5,7 @@ import java.util.*;
 public class InsertionSort {
    public static void main(String[] args)
    {
-	   System.out.println("Enter the value of n");
+	   System.out.println("Enter the value of array size");
 	   Scanner sc=new Scanner (System.in);
 	   int n=sc.nextInt();
 	   int[] arr=new int[n];
