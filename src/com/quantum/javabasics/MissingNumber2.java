@@ -25,16 +25,16 @@ public class MissingNumber2 {
 		//5System.out.println(arr);
 		//System.out.println(brr);
 		ArrayList abc=new ArrayList();
-		for(int i=0;i<brr.size();i++)
-		{int count=0;
-			for(int j=0;j<arr.size();j++)
+		for(int i=0;i<arr.size();i++)
+		{
+			for(int j=0;j<brr.size();j++)
 			{
-				if(brr.get(i)==arr.get(j))
+				if(arr.get(i)==brr.get(j))
 				{
-					arr.remove(j);
-					count++;
+					brr.remove(j);
+					
 				}	
 		}
-	}System.out.println(arr);
+	}System.out.println(brr);
 	}
 }
