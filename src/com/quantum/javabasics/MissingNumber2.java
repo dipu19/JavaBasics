@@ -22,9 +22,8 @@ public class MissingNumber2 {
 		{
 			brr.add(sc.nextInt());
 		}
-		//5System.out.println(arr);
-		//System.out.println(brr);
-		ArrayList abc=new ArrayList();
+		
+		
 		for(int i=0;i<arr.size();i++)
 		{
 			for(int j=0;j<brr.size();j++)
