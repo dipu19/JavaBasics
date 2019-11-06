@@ -7,7 +7,7 @@ public class ClosestNumber {
 		System.out.println("Enter the size of array");
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		System.out.println("Enter element to array");
+		System.out.println("Enter elements to array");
 		int[] arr=new int[n];
 		ArrayList<Integer> arr1=new ArrayList<Integer>(20);
 		for(int i=0;i<n;i++)
