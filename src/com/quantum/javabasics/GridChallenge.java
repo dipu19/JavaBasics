@@ -10,7 +10,7 @@ public class GridChallenge {
 		int r=sc.nextInt();
 		System.out.println("enter value of c");
 		int c=sc.nextInt();
-		System.out.println("enter values to array");
+		System.out.println("enter values of array");
 		char [][] arr=new char[r][c];
 		for(int i=0;i<r;i++)
 		{
