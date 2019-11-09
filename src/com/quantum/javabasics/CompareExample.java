@@ -8,7 +8,7 @@ public class CompareExample  {
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 			ArrayList<Integer>	arr=new ArrayList<Integer>(n);
-		System.out.println("Enter the value of array");
+		System.out.println("Enter the value to array");
 		{
 			for(int i=0;i<n;i++)
 			{
