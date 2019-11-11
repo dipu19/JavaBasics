@@ -8,10 +8,7 @@ public class CommonChild {
 	 String s1=sc.next();
 	 System.out.println("Enter 2nd string");
 	 String s2=sc.next();
-		/*
-		 * Set <Character>s=new HashSet<Character>(); Set<Character> st=new
-		 * HashSet<Character>();
-		 */
+		
 	 int count=0;
 	 int count1=0;
 	 for(int i=0;i<s1.length();i++)
