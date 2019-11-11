@@ -5,7 +5,7 @@ public class BeautifulDays {
 	{   
 	    int number=6;
 	    int count=0;
-		int[] numbers= {20,21,22,23};
+		int[] numbers= {20,21,22,30};
 		int[] numbers1=new int[numbers.length];
 		int[] revNumbers=new int[numbers.length];
 		int[] diff=new int[numbers.length];
