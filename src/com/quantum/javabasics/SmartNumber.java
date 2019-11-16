@@ -3,7 +3,7 @@ import java.util.*;
 public class SmartNumber {
 	public static boolean isSmartNumber()
 	{
-		System.out.println("Enter a number");
+		System.out.println("Enter number here");
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int count =0;
