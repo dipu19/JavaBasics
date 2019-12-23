@@ -15,7 +15,7 @@ public class BuubleSort {
 		{
 			arr[i]=sc.nextInt();
 		}
-		//comparing two adjacent element
+		//comparing two adjacent element in bublle sort
 		for(int i=0;i<n-1;i++)
 		{
 			for(int j=0;j<n-1;j++)
