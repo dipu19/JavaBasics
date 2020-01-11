@@ -89,11 +89,47 @@ public class DoubleLinkedList {
 		{
 			n2=n2.next;
 		}
+		
 		n.next=n1;
 		n1.prev=n;
 		n2.next=n;
 		n.prev=n2;
 		
+	}
+	public void deleteAtFirst(int x)
+	{
+		int count=0;
+		Node n1=head;
+		Node n3=head;
+		Node n4=head;
+		Node n=new Node(x);
+		if(head==null)
+		{
+			System.out.println("Linked List is empty");
+		}
+		if(head!=null)
+		{
+			while(n1.data!=x)
+			{
+				n1=n1.next;
+				count++;
+			}
+			for(int i=0;i<count-1;i++)
+			{
+				n3=n3.next;
+			}
+			for(int i=0;i<count+1;i++)
+			{
+				n4=n4.next;
+			}
+			if(n1.data==x)
+			{
+				n3.next=n4;
+				n4.prev=n3;
+				
+			}
+			
+		}
 	}
 	
 	public static void main(String[] args)
@@ -102,10 +138,8 @@ public class DoubleLinkedList {
 		dl.insertFirst(15);
 		dl.insertFirst(255);
 		dl.insertFirst(265);
-		dl.insertLast(235);
-		dl.insertLast(75);
-		dl.insertLast(1235);
-		dl.insertAtMid(2, 88);
+		dl.insertAtMid(2, 10);
+		dl.deleteAtFirst(255);
 		dl.length();
 		dl.show();
 		
