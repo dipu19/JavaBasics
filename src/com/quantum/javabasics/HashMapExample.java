@@ -1,5 +1,6 @@
 package com.quantum.javabasics;
 
+import java.util.Collections;
 import java.util.HashMap;
 
 //Example on HashMap
@@ -20,7 +21,7 @@ public class HashMapExample {
 		//Here insertion order not preserved we will get the output according to sorting of keys.
 		hm.remove(3);
 		System.out.println("After removing the element"+hm);
-		hm.entrySet();
-		System.out.println(hm);
+		
+	
 	}
 }
