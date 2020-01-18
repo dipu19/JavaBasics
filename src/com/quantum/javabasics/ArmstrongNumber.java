@@ -3,7 +3,7 @@ package com.quantum.javabasics;
 public class ArmstrongNumber {
 	public static void main(String[] args)
 	{  
-		int number=154;
+		int number=370;
 		int n1=number;
 		int n2=number;
 		double sum=0;
@@ -25,10 +25,11 @@ public class ArmstrongNumber {
 		{
 			System.out.println("It Is Armstrong Number");
 		}
-		if ((int)sum!=n2)
+		else
 		{
-			System.out.println("It Is Not Armstrong Number");
-		}
 		
+			System.out.println("It Is Not Armstrong Number");
+		
+		}
 	}
 }
