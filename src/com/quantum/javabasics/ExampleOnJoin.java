@@ -1,5 +1,8 @@
 package com.quantum.javabasics;
-	class Right extends Thread
+
+import com.sun.tools.javac.Main;
+
+class Right extends Thread
 	{
 		public void run()
 		{
@@ -18,9 +21,11 @@ package com.quantum.javabasics;
 	{
 		public static void main(String[] args) throws Exception
 		{
+			System.out.println(Thread.currentThread().getName());
 			Right r=new Right();
 			r.start();
 			r.join();
+			
 			for(int i=0;i<4;i++)
 			{
 				System.out.println("Jagannath");
