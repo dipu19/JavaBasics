@@ -39,20 +39,8 @@ public class RotationOfString {
 		System.out.println("Enter the String you want to check");
 		String s2=sc.next();
 		rs.display(s2);
-		Thread.sleep(5000);
-		System.out.println();
-		System.out.println("Do You Have More To Check?");
-		String s3=sc.next();
-		if(s3.equals("yes"))
-		{
-			System.out.println("Enter the string");
-			String s4=sc.next();
-			rs.display(s4);
-		}
-		else
-		{
-			System.out.println("Thank You");
-		}
+		
+		
 		
 		
 	}
