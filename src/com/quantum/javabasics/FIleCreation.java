@@ -8,10 +8,14 @@ public class FIleCreation {
 	{
 		try
 		{
-			File file1=new File("E:filehandelingNewFile1.txt");
+			File file1=new File("E:\\NewFile1.txt");
 			if(file1.createNewFile())
 			{
-				System.out.println("file got created");
+				System.out.println("file got created"+file1.getName());
+			}
+			else
+			{
+				System.out.println("Created");
 			}
 		}
 		catch(Exception e)
