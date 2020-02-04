@@ -6,7 +6,7 @@ public class MergeSorting {
 	int[] tempMergeArray;
 	public static void main(String[] args)
 	{
-		int[] inputArray= {15,25,5,258,14};
+		int[] inputArray= {15,25,5,14};
 		MergeSorting m=new MergeSorting();
 		m.sort(  inputArray);
 		for(int i=0;i<inputArray.length;i++)
