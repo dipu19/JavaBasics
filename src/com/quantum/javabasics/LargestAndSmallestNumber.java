@@ -23,7 +23,7 @@ public class LargestAndSmallestNumber {
 		System.out.println("Enter the size of array");
 		int size=sc.nextInt();
 		int[] arr=new int[size];
-		System.out.println("Enter element to array");
+		System.out.println("Enter elements to array");
 		for(int i=0;i<size;i++)
 		{
 			arr[i]=sc.nextInt();
