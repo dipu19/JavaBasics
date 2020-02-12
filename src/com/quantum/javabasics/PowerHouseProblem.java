@@ -8,13 +8,14 @@ public class PowerHouseProblem {
 	{
 		int count=0;
 		for(int i=0;i<ar.length;i++)
-		{int dis=ar.length;
+		{
+			int dis=ar.length;
 			for(int j=0;j<ph.length;j++)
 			{
-			    int dis1=Math.abs(ar[i]-ph[j]);
+			   int dis1=Math.abs(ar[i]-ph[j]);
 			   if(dis1<dis)
 			   {
-				   dis=dis1;
+				  dis=dis1;
 			   }
 			}
 			if(dis>count)
@@ -22,6 +23,8 @@ public class PowerHouseProblem {
 				count=dis;
 			}
 		}System.out.println("Distance is "+ count); 
+		
+		
 	}
 	public static void main(String[] args)
 	{
@@ -32,7 +35,7 @@ public class PowerHouseProblem {
 		int[] arr=new int[size];
 		for(int i=0;i<size;i++)
 		{
-			arr[i]=i+1;
+			arr[i]=i;
 		}
 		System.out.println("Enter the no of power house");
 		int no=sc.nextInt();
@@ -40,7 +43,7 @@ public class PowerHouseProblem {
 		System.out.println("Enter the power house ");
 		for(int i=0;i<no;i++)
 		{
-			arr[i]=sc.nextInt();
+			ph[i]=sc.nextInt();
 		}
 		PowerHouseProblem php=new PowerHouseProblem();
 	    php.dis(arr, ph);
