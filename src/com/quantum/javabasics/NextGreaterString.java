@@ -12,25 +12,30 @@ public class NextGreaterString {
 		}
 		int count=0;
 		
-	
-		for(int i=1;i<length;i++)
+		
+		
+		for(int i=1;i<=length;i++)
 		{
 			
-			for(int j=i+1;j<length;j++)
+			for(int j=i+1;j<=length;j++)
 			
 			{
+				
+				if(count<1)
+				{
 				if(arr[length-i]>arr[length-j])
 				{
-					System.out.println(arr[length-1]+" "+arr[length-2]);
+					
 					char c=arr[length-i];
 					arr[length-i]=arr[length-j];
 					arr[length-j]=c;
 					count++;
 					
 					
-				}break;
-			}break;
+				}
+			}
 			
+		}
 			
 		}
 		String s1="";
@@ -50,6 +55,6 @@ public class NextGreaterString {
 	public static void main(String[] args)
 	{
 		NextGreaterString ngs=new NextGreaterString();
-		ngs.greaterString("abcd");
+		ngs.greaterString("dkhc");
 	}
 }
