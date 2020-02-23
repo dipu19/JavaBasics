@@ -5,7 +5,7 @@ public static void main(String[] args)
 {
 
 {
-	String s="aca";
+	String s="ddrtddtyf";
 	int n=10;
 	 long countForSubString=0;
      long totalCount=0;
