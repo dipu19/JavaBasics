@@ -44,8 +44,9 @@ public class InsertionAtMiddle {
 		InsertionAtMiddle iam=new InsertionAtMiddle();
 		iam.head=new Node(15);
 		iam.insert(null, 20);
-		iam.insert(iam.head, 30);
+		iam.insert(iam.head, 30);iam.insert(iam.head, 30);
 		iam.insert(iam.head.next, 40);
+		
 		
 		iam.show();
 		// 20 15 25 35 45 315
