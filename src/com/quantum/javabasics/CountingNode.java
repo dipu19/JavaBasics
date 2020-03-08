@@ -24,7 +24,7 @@ public class CountingNode {
 		   n=n.next;
 	   }
 	   return count;
-   }s
+   }
    public static void main(String[] args)
    {
 	   CountingNode cn=new CountingNode();
