@@ -26,6 +26,6 @@ public class ConversionOfBinaryToDecimal {
 	public static void main(String[] args)
 	{
 		ConversionOfBinaryToDecimal object = new ConversionOfBinaryToDecimal();
-		object.conversion(11110);
+		object.conversion(1111);
 	}
 }
