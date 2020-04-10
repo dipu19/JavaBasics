@@ -5,8 +5,8 @@ public class LargestPermutation {
 	{
 		Scanner input=new Scanner(System.in);
 		System.out.println("Enter array size");
-	 int n = input.nextInt();
-	 System.out.println("Enter k value");
+	    int n = input.nextInt();
+	    System.out.println("Enter number of swap value");
 	 
 	    int k = input.nextInt();
 	    System.out.println("Enter value to array");
