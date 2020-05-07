@@ -1,6 +1,6 @@
 package com.quantum.javabasics;
 
-import com.sun.tools.javac.Main;
+
 
 class Right extends Thread
 	{

@@ -23,13 +23,7 @@ public class Anagram {
 				 */
 		Arrays.sort(al1);
 		Arrays.sort(al2);
-			/*
-			 * for(int i=0;i<al1.size();i++) { for(int j=1;j<al1.size();j++) {
-			 * if((int)al1.get(i)>(int)al1.get(j)) { char temp=al1.get(i); al1.add(i,
-			 * al1.get(j)); al1.add(j,temp); } } } for(int i=0;i<al2.size();i++) { for(int
-			 * j=1;j<al2.size();j++) { if((int)al2.get(i)>(int)al2.get(j)) { char
-			 * temp=al2.get(i); al2.add(i, al2.get(j)); al2.add(j,temp); } } }
-			 */
+			
 		for(int i=0;i<al1.length;i++)
 		{
 			if(al1[i]==al2[i])

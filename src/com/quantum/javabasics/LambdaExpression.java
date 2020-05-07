@@ -3,13 +3,13 @@ package com.quantum.javabasics;
 @FunctionalInterface
 interface Uber
 {
-	void book(String msg);
+	void book();
 }
 class Abcd implements Uber
 {
 	@Override
 	
-	public void book( String msg)
+	public void book( )
 	{
 		System.out.println("Cab booked");
 	}
@@ -20,21 +20,21 @@ public class LambdaExpression {
 	public static void main(String[] args)
 	{
 		Abcd object = new Abcd();
-		object.book("book");
+		object.book();
 		Abcd object1 = new Abcd()
 				{
 			       @Override
-			       public void book(String msg)
+			       public void book()
 			    {
 				 System.out.println("Sir cab booked ");
 			    }
 				};
-				object1.book("hi");
+				object1.book();
 				
-			    Uber abc = (String msg)->
+			    Uber abc = ()->
 				{
 					System.out.println("Hi mam booked cab by you is on the way");
 				};
-				abc.book("hi");
+				abc.book();
 	}
 }

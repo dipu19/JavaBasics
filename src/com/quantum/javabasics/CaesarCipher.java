@@ -13,7 +13,7 @@ public class CaesarCipher {
 		{
 		  int ascii=s.charAt(i)+k;
 		  
-		  s1= Character.toString(ascii);
+		  s1= String.valueOf(ascii);
 		  
 		}else if(s.charAt(i)=='-')
 		{
