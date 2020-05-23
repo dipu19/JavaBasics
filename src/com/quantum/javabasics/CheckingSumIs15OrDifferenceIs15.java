@@ -4,7 +4,7 @@ public class CheckingSumIs15OrDifferenceIs15 {
 	public boolean result(int number,int number1)
 	{
 		  int sum=Math.abs(number+number1);
-		  int difference=Math.abs(number-number1);
+		  
 		  if(sum==15)
 		  {
 			  return true;
@@ -34,9 +34,7 @@ public class CheckingSumIs15OrDifferenceIs15 {
 	  int number=sc.nextInt();
 	  System.out.println("Enter the 2nd number");
 	  int number1=sc.nextInt();
-	  int sum=Math.abs(number+number1);
-	  int difference=Math.abs(number-number1);
-	  CheckingSumIs15OrDifferenceIs15 d2=new CheckingSumIs15OrDifferenceIs15();
+	   CheckingSumIs15OrDifferenceIs15 d2=new CheckingSumIs15OrDifferenceIs15();
 	  System.out.println("sum is "+d2.result(number, number1));
 	  System.out.println("but difference is "+d2.result1(number, number1));
   }
