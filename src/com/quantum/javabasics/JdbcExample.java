@@ -31,9 +31,7 @@ public class JdbcExample {
 		   
 			{
 		    	System.out.println(e);
-		    	/*
-				 * System.err.println("Got an exception!"); System.err.println(e.getMessage());
-				 */
+		    	
 		    }
 
 		  }
